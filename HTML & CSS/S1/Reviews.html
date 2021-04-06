@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- Abhijeet_Das_Assignment_4_Webtech_06.04.2021-->
+<html>
+<body>
+<style>
+body {
+  background-color: #9FE2BF;
+}
+</style>
+
+<div style="background-color:red;color:white;padding:10px;">
+  <h1>MADCAT</h1>
+  <img src="mad cat.jpg" width="80" height="80" style="float: right">
+</div>
+<br><br>
+<div style="background-color:red;color:white;padding:5px;">
+  <h2>Customer Rating</h2>
+</div>
+<br>
+<form action="/action_page.php">
+  <label for="cname">Customer Name:</label>
+  <input type="text" id="cname" name="cname"><br><br>
+  <label for="ename">Email ID:</label>
+  <input type="text" id="ename" name="ename"><br><br>
+  <input type="submit" value="Submit">
+
+  <p>Overall Rating:
+  <input type="radio">
+  <input type="radio">
+  <input type="radio">
+  <input type="radio">
+  <input type="radio"></p>
+
+<p>Would you recommend this agency to your friend?</p>
+  <input type="radio" id="yes" name="Yes" value="Yes">
+  <label for="yes">Yes</label><br>
+  <input type="radio" id="no" name="no" value="no">
+  <label for="yes">No</label><br>
+
+<br>
+<div style="background-color:red;color:white;padding:5px;">
+  <h2>We love hearing from you! Tell us what you think about this agency</h2>
+</div>
+<br><br><br>
+<label for="review">Leave a Review:</label><br><br>
+<textarea id="review" name="review" rows="5" cols="30">
+  Write something!
+  </textarea>
+<br><br>
+  <label for="box">Choose Agency:</label>
+  <select id="box" name="box">
+    <option value="Madcat">Madcat</option>
+    <option value="Goodcat">Goodcat</option>
+  </select>
+  <input type="submit" value="Submit">
+
+</form>
+</body>
+</html>
